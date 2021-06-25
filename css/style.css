@@ -65,50 +65,83 @@ img{
     background-color: var(--primary-color);
 }
 
-.stretch-card>.card {
-    width: 100%;
-    min-width: 100%
-}
 
-body {
-    background-color: #f9f9fa
-}
 
-.flex {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto
-}
-.padding {
-    padding: 3rem
-}
-
-.owl-carousel .item {
-    margin: 3px
-}
-
-.owl-carousel .item img {
-    display: block;
-    width: 100%;
-    height: auto
-}
-
-.owl-carousel .item {
-    margin: 3px
-}
-
-.owl-carousel {
-    margin-bottom: 15px
-}
-
-.tasty-image{
-    width: 15%;
-    border-radius: 5px;
-
-}
 
 ul{
     list-style-type: none;
+}
+
+
+footer{
+    background-color: var(--primary-color);
+}
+
+.cardyy{
+    transition: 0.5s;
+}
+
+.gola{
+    background-color: var(--primary-color);
+}
+
+.gola i{
+    color: white;
+}
+
+.cardyy:hover,.cardyy-2:hover>div{
+    color: white;
+    background-color: var(--primary-color);
+    opacity: 1;
+}
+
+.cardyy:hover>div{
+    background-color: white;
+}
+
+.cardyy:hover>div>i{
+    color: var(--primary-color);
+}
+
+.cardyy-2 div{
+    color: white;
+    background-color: var(--primary-color);
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.feat{
+    background-color: rgba(233, 233, 233, 0.932);
+    margin-top:  10px;
+    transition: 0.5s;
+}
+
+.feat:hover{
+    background-color: var(--light-blue);
+    color: var(--primary-color);
+}
+
+.house{
+    background-color: rgba(233, 233, 233, 0.932);
+}
+
+.team{
+    background-color: var(--light-blue);
+}
+
+
+.chupa{
+    display: none;
+        
+}
+
+.chupa i{
+    color: white;
+}
+
+.dabba:hover>.chupa{
+display: block;
+margin-top: -40.5px;
 }
 
 
@@ -120,11 +153,8 @@ ul{
   }
 
 
-@media (max-width:991.98px) {
-   .padding {
-        padding: 1.5rem
-    }
-}
+
+
 
 
 
@@ -137,9 +167,7 @@ ul{
     background-color: var(--light-color);
 }
 
-.moving-image{
-    width: 75%;
-}
+
 .my-btn{
     margin-top: 10px;
     width: 100%;
@@ -147,6 +175,15 @@ ul{
 
 .padding {
     padding: 1rem
+}
+
+.moving-image{
+    animation-iteration-count: 0;
+    
+}
+
+.about-image{
+    width: 90%;
 }
 
 }
